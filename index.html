@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Penguin Fashion: Tailwindcss Practice</title>
+  <link rel="icon" href="./images/icon.png">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <header class="bg-orange-100 fixed right-0 left-0 top-0 shadow-lg py-5">
+    <div class="container mx-auto px-3 md:px-5">
+      <nav class="flex items-center">
+        <div class="logo w-1/2 md:w-1/4">
+          <a href="index.html"><img src="./images/logo.png" alt="logo"></a>
+        </div>
+        <div class="menu w-1/2 md:w-3/4">
+          <ul class="flex gap-[20px] justify-end items-center">
+            <li class="w-0 hidden md:block md:w-auto "><a class="hover:text-slate-400 text-md" href="#">Product</a></li>
+            <li class="w-0 hidden md:block md:w-auto "><a class="hover:text-slate-400 text-md" href="#">Service</a></li>
+            <li class="w-0 hidden md:block md:w-auto "><a class="hover:text-slate-400 text-md" href="#">About</a></li>
+            <li class="w-0 hidden md:block md:w-auto "><a class="hover:text-slate-400 text-md"
+                href="index.html">Home</a></li>
+            <li class="w-0 hidden md:block md:w-auto "><a class="hover:text-slate-400 text-md" href="#">Contact</a></li>
+            <li><button
+                class="ms-[30px] bg-orange-400 text-md font-semibold text-white py-1.5 px-3 rounded-3xl hover:bg-orange-200 hover:text-slate-400 transition-all duration-500">Sign
+                Up</button></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- banner section -->
+  <section class="banner bg-orange-50 w-full">
+    <div class="container mx-auto px-3 md:px-5 pt-[120px] pb-[100px]">
+      <div class="block md:flex items-center justify-center gap-[40px]">
+        <div class="w-full md:w-1/2">
+          <h2 class="text-2xl md:text-4xl font-bold text-orange-400 pb-4 drop-shadow-md">Be Happy In Winter With Penguin
+          </h2>
+          <p class="text-md font-semibold pt-3 pb-7">Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Suscipit
+            Amet Numquam Nihil Quia Tempora
+            Inventore, Exercitationem Dolores Eos Ipsum! Molestias</p>
+          <button
+            class="bg-[#a4bc46] text-md font-semibold text-white py-1.5 px-3 rounded-3xl hover:bg-lime-200 hover:text-slate-400 transition-all duration-500">Buy
+            Now</button>
+        </div>
+        <div class="w-full md:w-1/2">
+          <img src="./images/model.png" alt="model">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- counter section -->
+  <section class="counter bg-stone-300 w-full py-3">
+    <div class="container mx-auto px-3 md:px-5">
+      <div class="flex flex-wrap justify-evenly">
+        <div class="count w-1/2 md:w-1/4 text-center py-4">
+          <h2 class="text-lime-800 text-md md:text-3xl font-semibold">7500+</h2>
+          <p class="text-md font-semibold pt-3 pb-7">Products Sold</p>
+        </div>
+        <div class="count w-1/2 md:w-1/4 text-center py-4">
+          <h2 class="text-lime-800 text-md md:text-3xl font-semibold">9300+</h2>
+          <p class="text-md font-semibold pt-3 pb-7">Products In Stock</p>
+        </div>
+        <div class="count w-1/2 md:w-1/4 text-center py-4">
+          <h2 class="text-lime-800 text-md md:text-3xl font-semibold">6500+</h2>
+          <p class="text-md font-semibold pt-3 pb-7">Trusted Review</p>
+        </div>
+        <div class="count w-1/2 md:w-1/4 text-center py-4">
+          <h2 class="text-lime-800 text-md md:text-3xl font-semibold">5 Star</h2>
+          <p class="text-md font-semibold pt-3 pb-7">Ratings</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
